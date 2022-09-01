@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="google-signin-client_id" content="276715839652-8e4hb62sp6uoen3vv9a1ssimb0kqltj8.apps.googleusercontent.com">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -27,6 +28,9 @@
     <title>React App</title>
   </head>
   <body>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://accounts.google.com/gsi/client" id="gsi" defer></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1194.0.min.js"></script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

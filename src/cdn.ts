@@ -1,0 +1,1 @@
+export const google = require("https://accounts.google.com/gsi/client");

@@ -1,0 +1,211 @@
+.header {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+
+    padding-left: 4%;
+}
+
+.dark-shade {
+    background-color: #1EBBFF;
+}
+
+.light-shade {
+    background-color: white;
+}
+
+.nav-drawer-btn {
+    color: white;
+    background-color: black;
+}
+
+.nav-drawer-btn:hover {
+    cursor: pointer;
+}
+
+.mega-text {
+    font-size: 1.6rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.white-font {
+    color: white;
+}
+
+.profile-image {
+    border-radius: 50%;
+}
+
+.image {
+    width: 6rem;
+    height: 6rem;
+
+    background-image: url("https://img.freepik.com/free-photo/serious-looking-male-handsome-guy-with-blond-hair-wearing-grey-hoodie-people-emotion-concept-watching-confident-isolated-grey-wall_295783-13901.jpg?w=2000");
+}
+
+.add-post {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    border-style: solid;
+    border-color: #1EBBFF;
+    border-width: 1px;
+    width: 68vw;
+}
+
+.add-post .textarea-section {
+    display: flex;
+
+}
+
+.add-post .textarea-section textarea {
+    /* width: 58vw; */
+    height: 6vh;
+    max-height: 30vh;
+    padding-left: 1em;
+    padding-top: 1em;
+    border-style: hidden;
+    background-color: #E8F3F7;
+    font-size: 18px;
+    resize: none;
+}
+
+.add-post .btn {
+    width: 7vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: #1EBBFF;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.add-post .btn:hover {
+    cursor:pointer;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 68vw;
+    min-height: 10vh;
+    margin-top: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+    border-style: solid;
+    border-color: #1EBBFF;
+    border-width: 1px;
+}
+
+.post .head {
+    display: flex;
+    flex-direction: row;
+}
+
+.post .head .text-container {
+    flex-direction: column;
+    margin-left: 2vw;
+}
+
+.post .head .text-container .name {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.post .head .text-container .time-stamp {
+    margin-top: 0.5vh;
+    font-size: 14px;
+    color: #C2C2C2;
+}
+
+.post .body {
+    margin-top: 3vh;
+    white-space: pre-line;
+}
+
+.sign-in-page {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    padding-top: 10vh;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    background-color: #1EBBFF;
+}
+
+.sign-in-page .site-title {
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+}
+
+.sign-in-page .sign-in-container { 
+    width: 19vw;
+    height: max-content;
+    margin-left: 45vw;
+    margin-right: 10vw;
+    padding-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.25);
+}
+
+.sign-in-page .sign-in-container .text-input {
+    width: 100%;
+    height: 100%;
+    background-color: #E8F3F7;
+    border-style: none;
+}
+
+.sign-in-page .sign-in-container .text-input::placeholder {
+    padding-left: 1vw;
+    font-size: 10px;
+    color: #A1A1A1;
+}
+
+.sign-in-page .sign-in-container div {
+    width: 75%;
+}
+
+.sign-in-page .sign-in-container .line {
+    width: 15vw;
+    height: 0.03vh;
+    margin-top: 0vh;
+    background-color: #A6A6A6;
+}
+
+.sign-in-page .sign-in-container .logo {
+    aspect-ratio: 1/1;
+    width: 3.5vw;
+}
+
+.sign-in-page .sign-in-container .logo:hover {
+    cursor: pointer;
+}
